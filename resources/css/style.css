@@ -1,0 +1,92 @@
+/* Styling myTimes */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ HEADER ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+ header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row; /*default typed for practice */
+  position: fixed;
+  border-bottom: 1px solid black;
+  width: 100%;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 5;
+
+}
+header span {
+  color: MediumAquamarine;
+/*  justify-content: flex-start; */
+  padding: 15px;
+  align-self: center;
+}
+nav {
+  padding-right: 40px;
+}
+ nav span {
+  display: inline-block;
+  /* color: black; */
+  padding: 20px 10px;
+/*  justify-content: flex-end; */
+}
+a {
+  color: black;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ MAIN CONTAINER ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.mainContainer {
+  display: flex;
+  margin-top: ;
+  position: relative;
+  top: 100px;
+  justify-content: center;
+
+}
+
+.large {
+  display: flex;
+  flex-direction: column;
+  width: 630px;
+  border: 1px solid black;
+}
+
+.large.1L {
+
+}
+
+.large.2L {
+
+}
+
+.large.3L {
+
+}
+
+.med {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0px 35px;
+  border: 1px solid black;
+}
+
+.small {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  border: 1px solid black;
+}
+
+.one.img.left {
+  background-image: url(./media/imgmain.png);
+}
+
+
+
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ HEADER ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
