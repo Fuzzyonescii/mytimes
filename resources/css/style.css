@@ -84,13 +84,42 @@ a {
 #one {
   display: flex;
   font-family: Georgia;
-  font-size: 30px;
+  font-size: 40px;
   color: white;
   font-weight: bold;
-  
+  height: 300px;
   background-image: url('../media/imgmain.png');
 }
 
+#two {
+  display: flex;
+  font-family: Georgia;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  height: 300px;
+  background-image: url('../media/img2.png');
+}
+
+#three {
+  display: flex;
+  font-family: Georgia;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  height: 300px;
+  background-image: url('../media/img3.png');
+}
+
+#four {
+  display: flex;
+  font-family: Georgia;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  height: 300px;
+  background-image: url('../media/img1.png');
+}
 
 
 
