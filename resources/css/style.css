@@ -44,6 +44,7 @@ a {
   top: 100px;
   justify-content: center;
 
+
 }
 
 .large {
@@ -80,8 +81,14 @@ a {
   border: 1px solid black;
 }
 
-.one.img.left {
-  background-image: url(./media/imgmain.png);
+#one {
+  display: flex;
+  font-family: Georgia;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  
+  background-image: url('../media/imgmain.png');
 }
 
 
