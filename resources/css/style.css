@@ -10,10 +10,11 @@
   position: fixed;
   border-bottom: 1px solid black;
   width: 100%;
-  padding: 10px;
-  align-items: center;
+  padding: 0px 10px 10px 10px;
+  
   justify-content: space-between;
   z-index: 5;
+  background-color: white;
 
 }
 header span {
@@ -43,27 +44,33 @@ a {
   position: relative;
   top: 100px;
   justify-content: center;
+  font-size: 17px;
+  font-family: Georgia;
+  color: black;
 
 
 }
 
 .large {
   display: flex;
-  flex-direction: column;
   width: 630px;
-  border: 1px solid black;
-}
+/*  border: 1px solid black; */
+  flex-direction: row;
+  flex-wrap:wrap;
 
-.large.1L {
-
-}
-
-.large.2L {
 
 }
 
-.large.3L {
+.onelarge {
+width: 100%;
+}
 
+.twolarge {
+flex-shrink: 1;
+}
+
+.threelarge {
+flex-shrink: 1;
 }
 
 .med {
@@ -71,14 +78,28 @@ a {
   flex-direction: column;
   width: 300px;
   margin: 0px 35px;
-  border: 1px solid black;
+/*  border: 1px solid black; */
 }
 
 .small {
   display: flex;
   flex-direction: column;
   width: 240px;
-  border: 1px solid black;
+/*  border: 1px solid black; */
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.small span {
+
+  display: block;
+
+  border-bottom: 1px solid black;
+  padding: 10px 0px 10px 10px;
+  background-color: whiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
 }
 
 #one {
