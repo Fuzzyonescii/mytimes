@@ -10,9 +10,9 @@
   position: fixed;
   border-bottom: 1px solid black;
   width: 100%;
-  padding: 0px 10px 10px 10px;
-  
+  padding: 10px;
   justify-content: space-between;
+  top: 0px;
   z-index: 5;
   background-color: white;
 
@@ -142,8 +142,13 @@ flex-shrink: 1;
   background-image: url('../media/img1.png');
 }
 
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
-
-
-
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ HEADER ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+footer {
+  display: flex;
+  position: relative;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
