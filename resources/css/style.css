@@ -52,14 +52,25 @@ a {
 
 .large {
   display: flex;
+  flex-direction:column ;
   width: 630px;
 /*  border: 1px solid black; */
-
-  flex-direction: row;
-  flex-wrap:wrap;
+  justify-content:flex-start;
+  flex-wrap: nowrap;
   background-color: lightblue;
 
 
+}
+
+.mainStory {
+width: 100%;
+display: block;
+}
+
+.subStory {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
 }
 
 .med {
